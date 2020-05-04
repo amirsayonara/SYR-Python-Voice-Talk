@@ -1,5 +1,5 @@
 # SYR Python Voice Talk
-Program yang memungkinkan Anda berkomunikasi menggunakan suara secara berkelompok dalam satu waktu dengan channel yang dapat disesuaikan oleh masing-masing orang.
+Program yang memungkinkan Anda berkomunikasi menggunakan suara secara berkelompok dalam satu waktu dengan channel yang dapat disesuaikan oleh masing-masing kelompok.
 
 ## Setup
 - Instalasi modul - ``pip install -r requirements.txt``
@@ -11,3 +11,4 @@ Program yang memungkinkan Anda berkomunikasi menggunakan suara secara berkelompo
 - Threading Module (library bawaan)
 
 ## Usage
+- Sudah disediakan demo program. Sudah tersedia keterangan dan penggunaan fitur.
