@@ -36,12 +36,12 @@ class Klien:
             self._s.close()
             print('Koneksi terputus')
 
-        threading.Thread(target=self.menerima_data).start()
-        threading.Thread(target=self.mengirim_data).start()
+        threading.Thread(target=self._menerima_data).start()
+        threading.Thread(target=self._mengirim_data).start()
 
         self._tersambung = 1
 
-    def mengirim_data(self):
+    def _mengirim_data(self):
         self.mengirim = 1
         while 1:
             if self.mengirim:
@@ -54,7 +54,7 @@ class Klien:
                     print('Koneksi terputus')
                     break
 
-    def menerima_data(self):
+    def _menerima_data(self):
         self.menerima = 1
         while 1:
             try:
